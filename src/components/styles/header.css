@@ -1,0 +1,27 @@
+.logo {
+  border-radius: 0.7rem;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.header {
+  max-height: 8rem;
+  margin-left: 25rem;
+}
+.discussion {
+  border-bottom: 2px solid #002d62;
+}
+.discussion-text {
+  color: #002d62;
+}
+.searchIcon {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.control {
+  border-radius: 1rem;
+  width: 20rem;
+  padding-left: 2.5rem;
+  height: 2.1rem;
+  background-color: #f0f0f0;
+  border: none;
+}
