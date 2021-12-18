@@ -6,7 +6,7 @@ import "./styles/header.css";
 const Header = () => {
   return (
     <div>
-      <Navbar bg="light" expand="lg">
+      <Navbar className="navBar" bg="light" expand="lg">
         <Container>
           <Navbar.Brand href="#">
             <img className="logo" src={logo} alt="" />
@@ -21,7 +21,7 @@ const Header = () => {
               <Nav.Link href="#action2">Blog</Nav.Link>
               <Nav.Link href="#action2">Our Story</Nav.Link>
             </Nav>
-            <img className="searchIcon" src={searchIcon} alt="search" />
+            <img src={searchIcon} className="searchIcon" alt="" />
             <Form className="d-flex">
               <FormControl
                 type="search"

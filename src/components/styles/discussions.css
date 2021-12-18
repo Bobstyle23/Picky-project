@@ -1,0 +1,10 @@
+.upIcon {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.badge {
+  float: left;
+  border-radius: 0.4rem;
+  margin-top: 0.2rem;
+  font-style: 100;
+}
