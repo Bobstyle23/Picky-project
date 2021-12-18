@@ -7,14 +7,7 @@ const Discussion = () => {
     <div>
       <Container>
         <Row style={{ margin: "1rem 0 0 0" }}>
-          <Col
-            style={{
-              marginRight: "3rem",
-              height: "30rem",
-              border: "1px solid red",
-            }}
-            sm={2}
-          >
+          <Col className="col1" sm={2}>
             <p>
               Daily Best <img src={upIcon} className="upIcon" alt="" />
             </p>
