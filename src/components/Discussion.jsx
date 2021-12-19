@@ -2,7 +2,9 @@ import React from "react";
 import { Container, Row, Col, Badge } from "react-bootstrap";
 import upIcon from "../images/icon-up-big-19-px@3x.png";
 import downIcon from "../images/icon-down-big-19-px@3x.png";
+import data from "../data/discussion.json";
 import "./styles/discussions.css";
+
 const Discussion = () => {
   return (
     <div>
