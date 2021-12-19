@@ -13,7 +13,7 @@ const Header = () => {
           </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse>
-            <Nav className="me-auto my-2 my-lg-0 header">
+            <Nav className="me-auto my-2 my-lg-0 headerTexts">
               <Nav.Link href="#action1">Products</Nav.Link>
               <Nav.Link className="discussion" href="#action2">
                 <p className="discussion-text">Discussions</p>
@@ -24,6 +24,7 @@ const Header = () => {
             <img src={searchIcon} className="searchIcon" alt="" />
             <Form className="d-flex">
               <FormControl
+                style={{ fontSize: "1rem" }}
                 type="search"
                 placeholder="Products, brands, discussions"
                 className="me-2 control"

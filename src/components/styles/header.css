@@ -6,7 +6,7 @@
   width: 2.5rem;
   height: 2.5rem;
 }
-.header {
+.headerTexts {
   max-height: 8rem;
   margin-left: 25rem;
   align-items: center;
@@ -30,4 +30,7 @@
   height: 2.1rem;
   background-color: #f0f0f0;
   border: none;
+}
+
+@media (max-width: 768px) {
 }

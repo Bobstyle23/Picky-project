@@ -1,26 +1,86 @@
 .col1 {
   margin-right: 3rem;
-  height: 30rem;
-  border: 1px solid red;
+
+  background-color: #f8f8f8;
+  border-radius: 1.3rem;
+}
+.col-1-head {
+  margin-right: 1rem;
+}
+.col-1-text1 {
+  font-size: 0.8rem;
+  text-align: left;
+  margin-left: 3.8rem;
+}
+.col-1-text {
+  font-size: 0.8rem;
+  color: #a0a0a0;
+  text-align: left;
+  margin-left: 3.8rem;
+  line-height: 0.6rem;
+}
+.col-1-features {
+  font-size: 0.95rem;
+  color: #a0a0a0;
+  text-align: left;
+  margin-left: 2.5rem;
+  line-height: 0.75rem;
+}
+.col2 {
+  background-color: #f8f8f8;
+  border-radius: 1.3rem;
 }
 .upIcon {
   width: 1.2rem;
   height: 1.2rem;
 }
-.badge {
+.downIcon {
+  width: 1rem;
+  height: 1rem;
+}
+.userBadge {
   float: left;
   border-radius: 0.4rem;
   margin-top: 0.2rem;
-  font-style: 100;
+  font-weight: 400;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1100px) {
+  .col-1-text1 {
+    text-align: left;
+    margin-left: 0;
+  }
+  .col-1-text {
+    text-align: left;
+    margin-left: 0;
+  }
+  .col-1-features {
+    text-align: left;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 750px) {
   .col1 {
     display: none;
   }
+  .col-1-text {
+    text-align: left;
+    margin-left: 0;
+  }
+  .col-1-features {
+    text-align: left;
+    margin-left: 0;
+  }
+  .col2 {
+    width: 100%;
+  }
 }
-@media (max-device-width: 375px) {
+@media (max-device-width: 500px) {
   .col1 {
     display: none;
+  }
+  .col2 {
+    width: 100%;
   }
 }
