@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Container, Form, Nav, FormControl } from "react-bootstrap";
 import logo from "../images/icon-picky@3x.png";
-// import searchIcon from "../images/search@3x.png";
+import searchIcon from "../images/search@3x.png";
 import "./styles/header.css";
 const Header = () => {
   return (
@@ -11,7 +11,7 @@ const Header = () => {
           <Navbar.Brand href="#">
             <img className="logo" src={logo} alt="" />
           </Navbar.Brand>
-          <Navbar.Toggle />
+          <Navbar.Toggle className="toggle-btn" />
           <Navbar.Collapse>
             <Nav className="me-auto my-2 my-lg-0 headerTexts">
               <Nav.Link href="#action1">Products</Nav.Link>
@@ -31,6 +31,8 @@ const Header = () => {
               />
             </Form>
           </Navbar.Collapse>
+          <button className="mobile-btn">Use App</button>
+          <img className="mobile-searchIcon" src={searchIcon} alt="" />
         </Container>
       </Navbar>
     </div>

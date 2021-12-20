@@ -36,3 +36,67 @@
   margin-right: 3.3rem;
   font-size: 0.6rem;
 }
+@media (min-width: 600px) {
+  .mobile-btn {
+    display: none;
+  }
+  .mobile-searchIcon {
+    display: none;
+  }
+}
+
+@media (max-width: 750px) {
+  .toggle-btn {
+    margin-left: -30rem;
+    border: none;
+    color: #000000;
+  }
+  .mobile-btn {
+    width: 4.2rem;
+    height: 1.5rem;
+    margin-right: 0.5rem;
+    border-radius: 5rem;
+    border: none;
+    color: white;
+    background-color: #002d62;
+    font-size: 0.8rem;
+  }
+  .mobile-searchIcon {
+    margin-left: -22rem;
+    width: 1rem;
+    height: 1rem;
+  }
+  .logo {
+    margin-left: 3rem;
+    border-radius: 50%;
+  }
+}
+
+@media (max-device-width: 500px) {
+  .mobile-btn {
+    display: block;
+    border-radius: 5rem;
+    border: none;
+    color: white;
+    background-color: #002d62;
+    width: 4.5rem;
+    height: 1.5rem;
+    font-size: 0.8rem;
+  }
+  .mobile-searchIcon {
+    display: block;
+    margin-left: -43.5rem;
+
+    width: 1rem;
+    height: 1rem;
+  }
+  .toggle-btn {
+    margin-left: -54rem;
+    border: none;
+    margin-right: -2rem;
+  }
+  .logo {
+    border-radius: 50%;
+    margin-left: -3rem;
+  }
+}
