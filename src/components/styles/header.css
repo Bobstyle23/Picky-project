@@ -69,6 +69,8 @@
   .logo {
     margin-left: 3rem;
     border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
   }
 }
 
@@ -98,5 +100,7 @@
   .logo {
     border-radius: 50%;
     margin-left: 3rem;
+    width: 2rem;
+    height: 2rem;
   }
 }
