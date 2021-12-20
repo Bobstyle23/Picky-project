@@ -33,7 +33,7 @@
   font-size: 0.8rem;
 }
 .searchField {
-  margin-right: 3.3rem;
+  margin-right: -0.5rem;
   font-size: 0.6rem;
 }
 @media (min-width: 600px) {
@@ -44,7 +44,11 @@
     display: none;
   }
 }
-
+@media (max-width: 1200px) {
+  .headerTexts {
+    margin-left: 15rem;
+  }
+}
 @media (max-width: 750px) {
   .toggle-btn {
     margin-left: -28.7rem;
@@ -52,14 +56,15 @@
     color: #000000;
   }
   .mobile-btn {
-    width: 4.2rem;
-    height: 1.5rem;
+    width: 4.5rem;
+    height: 1.6rem;
     margin-right: 1rem;
     border-radius: 5rem;
     border: none;
     color: white;
     background-color: #002d62;
     font-size: 0.8rem;
+    text-transform: uppercase;
   }
   .mobile-searchIcon {
     margin-left: -22rem;
@@ -81,9 +86,10 @@
     border: none;
     color: white;
     background-color: #002d62;
-    width: 4.5rem;
-    height: 1.5rem;
+    width: 4.6rem;
+    height: 1.6rem;
     font-size: 0.8rem;
+    text-transform: uppercase;
   }
   .mobile-searchIcon {
     display: block;
