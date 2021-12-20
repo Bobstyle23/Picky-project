@@ -40,8 +40,10 @@ const Discussion = () => {
               Groups <img className="downIcon" src={downIcon} alt="" />
             </p>
           </Col>
-          <Col className="col2" sm={9}>
-            <p className="badge">Routine Help</p>
+          <Col className="col2">
+            <div>
+              <p className="badge">Routine Help</p>
+            </div>
           </Col>
         </Row>
       </Container>

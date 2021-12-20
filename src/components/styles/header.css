@@ -47,14 +47,14 @@
 
 @media (max-width: 750px) {
   .toggle-btn {
-    margin-left: -30rem;
+    margin-left: -28.7rem;
     border: none;
     color: #000000;
   }
   .mobile-btn {
     width: 4.2rem;
     height: 1.5rem;
-    margin-right: 0.5rem;
+    margin-right: 1rem;
     border-radius: 5rem;
     border: none;
     color: white;
@@ -85,18 +85,18 @@
   }
   .mobile-searchIcon {
     display: block;
-    margin-left: -43.5rem;
-
+    margin-left: -39rem;
     width: 1rem;
     height: 1rem;
+    margin-right: 0.8rem;
   }
   .toggle-btn {
-    margin-left: -54rem;
+    margin-left: -47.1rem;
     border: none;
-    margin-right: -2rem;
+    margin-right: -7rem;
   }
   .logo {
     border-radius: 50%;
-    margin-left: -3rem;
+    margin-left: 3rem;
   }
 }

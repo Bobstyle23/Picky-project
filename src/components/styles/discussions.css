@@ -39,6 +39,7 @@
   height: 1rem;
 }
 .badge {
+  display: block;
   float: left;
   border-radius: 0.4rem;
   color: #000000;
