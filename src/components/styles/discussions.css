@@ -1,11 +1,11 @@
 .col1 {
   margin-right: 3rem;
-
   background-color: #f8f8f8;
   border-radius: 1.3rem;
 }
 .col-1-head {
   margin-right: 1rem;
+  margin-top: 0.7rem;
 }
 .col-1-text1 {
   font-size: 0.8rem;
@@ -38,11 +38,14 @@
   width: 1rem;
   height: 1rem;
 }
-.userBadge {
+.badge {
   float: left;
   border-radius: 0.4rem;
-  margin-top: 0.2rem;
+  color: #000000;
+  margin-top: 0.7rem;
+  margin-left: 0.5rem;
   font-weight: 400;
+  background-color: #f0f0f0;
 }
 
 @media (max-width: 1100px) {

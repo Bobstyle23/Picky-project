@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Container, Form, Nav, FormControl } from "react-bootstrap";
 import logo from "../images/icon-picky@3x.png";
-import searchIcon from "../images/search@3x.png";
+// import searchIcon from "../images/search@3x.png";
 import "./styles/header.css";
 const Header = () => {
   return (
@@ -21,10 +21,9 @@ const Header = () => {
               <Nav.Link href="#action2">Blog</Nav.Link>
               <Nav.Link href="#action2">Our Story</Nav.Link>
             </Nav>
-            <img src={searchIcon} className="searchIcon" alt="" />
-            <Form className="d-flex">
+
+            <Form className="d-flex searchField">
               <FormControl
-                style={{ fontSize: "1rem" }}
                 type="search"
                 placeholder="Products, brands, discussions"
                 className="me-2 control"

@@ -8,7 +8,7 @@
 }
 .headerTexts {
   max-height: 8rem;
-  margin-left: 25rem;
+  margin-left: 26rem;
   align-items: center;
 }
 .discussion {
@@ -25,9 +25,14 @@
 }
 .control {
   border-radius: 1rem;
-  width: 20rem;
-  padding-left: 2.5rem;
+  width: 15rem;
+  padding-left: 2rem;
   height: 2.1rem;
   background-color: #f0f0f0;
   border: none;
+  font-size: 0.8rem;
+}
+.searchField {
+  margin-right: 3.3rem;
+  font-size: 0.6rem;
 }

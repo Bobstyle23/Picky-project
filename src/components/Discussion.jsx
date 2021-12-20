@@ -1,11 +1,13 @@
 import React from "react";
-import { Container, Row, Col, Badge } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import upIcon from "../images/icon-up-big-19-px@3x.png";
 import downIcon from "../images/icon-down-big-19-px@3x.png";
 import data from "../data/discussion.json";
 import "./styles/discussions.css";
 
 const Discussion = () => {
+  const items = data;
+
   return (
     <div>
       <Container>
@@ -39,9 +41,7 @@ const Discussion = () => {
             </p>
           </Col>
           <Col className="col2" sm={9}>
-            <Badge className="userBadge" bg="light" text="dark">
-              Routine Help
-            </Badge>
+            <p className="badge">Routine Help</p>
           </Col>
         </Row>
       </Container>
