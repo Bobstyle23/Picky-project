@@ -39,7 +39,7 @@
   height: 1rem;
 }
 .badge {
-  display: inline-flex;
+  display: block;
   float: left;
   border-radius: 0.4rem;
   color: #000000;
@@ -47,6 +47,23 @@
   margin-left: 0.5rem;
   font-weight: 400;
   background-color: #f0f0f0;
+}
+.profile-img {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  float: left;
+  margin-top: 2.5rem;
+  margin-left: -5.2rem;
+}
+.profile-img-badge {
+  position: absolute;
+  width: 1.2rem;
+  height: 1.2rem;
+  left: 32rem;
+  top: 9.75rem;
+  border: 1px solid white;
+  border-radius: 50%;
 }
 
 @media (max-width: 1200px) {

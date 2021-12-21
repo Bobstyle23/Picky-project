@@ -14,6 +14,16 @@ const Discussion = () => {
         <Row style={{ margin: "1rem 0 0 0" }}>
           <Col className="col1" sm={2}>
             <p className="col-1-head">
+              <img
+                style={{
+                  width: "1rem",
+                  height: "1rem",
+                  marginTop: "-0.35rem",
+                  marginRight: "0.2rem",
+                }}
+                src="https://www.gopicky.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdailybest.b3cc9b95.svg&w=3840&q=75"
+                alt=""
+              />
               Daily Best <img src={upIcon} className="upIcon" alt="" />
             </p>
             <p className="col-1-text1">All</p>
@@ -41,9 +51,19 @@ const Discussion = () => {
             </p>
           </Col>
           <Col className="col2">
-            <div>
-              <p className="badge">Routine Help</p>
-            </div>
+            <p className="badge">Routine Help</p>
+
+            <img
+              className="profile-img"
+              src="https://www.gopicky.com/_next/image?url=https%3A%2F%2Fd3nf6fs21wype6.cloudfront.net%2Fusers%2F162127.20211117134518.jpg&w=96&q=75"
+              alt=""
+            />
+
+            <img
+              className="profile-img-badge"
+              src="https://www.gopicky.com/images/user_role/super_picky.webp"
+              alt=""
+            />
           </Col>
         </Row>
       </Container>
